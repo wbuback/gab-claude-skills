@@ -1,0 +1,50 @@
+{
+  "skill_name": "gab-canvas-builder",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Me ajuda a montar um canvas. Tenho uma ideia de criar um serviço de agendamento de revisões preventivas para frotas corporativas que operam na região de ES/MG. A ideia é oferecer um contrato anual onde a empresa paga uma mensalidade e garante revisões programadas para toda a frota, sem precisar ligar ou agendar manualmente. A gente já tem as concessionárias e a rede de mecânicos do grupo. A receita vem da mensalidade + peças usadas nas revisões. Os clientes principais seriam empresas com frotas de 10 a 100 veículos leves ou comerciais. O atendimento seria por um app e um gerente de conta dedicado. Os custos principais são equipe técnica, sistema de gestão de manutenção e peças.",
+      "expected_output": "Canvas com os 9 blocos preenchidos (Proposta de Valor, Segmentos, Canais, Relacionamento, Fontes de Receita, Recursos-Chave, Atividades-Chave, Parcerias-Chave, Estrutura de Custos), cada um com Sugestão e Alternativa realmente diferentes, linhas A Confirmar apenas onde há incerteza genuína, próximo passo sugerido ao final. Tom exploratório, não analítico/crítico.",
+      "files": [],
+      "expectations": [
+        "Output contém os 9 blocos do BMC com os emojis corretos: 🎯 Proposta de Valor, 👥 Segmentos, 📣 Canais, 🤝 Relacionamento, 💰 Fontes de Receita, 🔑 Recursos-Chave, ⚙️ Atividades-Chave, 🤜 Parcerias-Chave, 💸 Estrutura de Custos",
+        "Cada bloco tem 💡 Sugestão e 🔄 Alternativa — e ambas são realmente diferentes (não variação menor uma da outra)",
+        "Output inclui seção final 🗺️ Próximo passo sugerido",
+        "Tom é construtivo e exploratório — sem críticas de viabilidade ou julgamentos sobre a ideia",
+        "Sugestões são específicas ao contexto fornecido (frotas ES/MG, revisões preventivas, grupo automotivo) — não genéricas",
+        "Output NÃO faz perguntas ao usuário antes de preencher (contexto era rico o suficiente)",
+        "Nenhum bloco é pulado ou deixado sem sugestão"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Quero montar um canvas mas não sei bem por onde começar. Tenho uma ideia de ajudar pessoas com deficiência a comprar veículos adaptados com mais facilidade. Acho que tem muita burocracia e as pessoas ficam perdidas.",
+      "expected_output": "Skill faz até 3 perguntas focadas antes de preencher (contexto esparso), OU preenche com sugestões baseadas no setor PCD automotivo com múltiplas linhas A Confirmar. Tom exploratório. 9 blocos preenchidos. Próximo passo ao final.",
+      "files": [],
+      "expectations": [
+        "Skill reconhece que o contexto é esparso e ou faz perguntas (máx 3) OU preenche todos os 9 blocos com sugestões calibradas ao setor PCD + múltiplas linhas A Confirmar",
+        "Se preencher direto: usa contexto do setor PCD automotivo BR para calibrar sugestões (isenção IPVA, ICMS, IPI para PCD, processo DETRAN, financeiras parceiras)",
+        "Cada bloco tem 💡 Sugestão e 🔄 Alternativa realmente distintas",
+        "Output inclui seção 🗺️ Próximo passo sugerido",
+        "Tom é construtivo — sem julgamentos sobre viabilidade",
+        "Output NÃO ultrapassa 3 perguntas se optar por perguntar antes de preencher",
+        "Nenhum bloco é pulado"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Preciso de ajuda para preencher esse canvas que comecei mas está incompleto:\n\nProposta de Valor: Plataforma digital que conecta transportadores autônomos a cargas disponíveis na região, com pagamento garantido em 24h.\n\nSegmentos de Clientes: Transportadores autônomos com caminhão próprio.\n\nCanais: Não sei ainda.\n\nRelacionamento: App com suporte via chat.\n\nFontes de Receita: Não sei.\n\nRecursos-Chave: Tecnologia da plataforma, base de transportadores cadastrados.\n\nAtividades-Chave: Desenvolvimento da plataforma, curadoria de cargas disponíveis.\n\nParcerias-Chave: Embarcadores (empresas que precisam enviar carga).\n\nEstrutura de Custos: Não sei.",
+      "expected_output": "Skill preenche todos os blocos: os que já têm conteúdo recebem Sugestão + Alternativa para refinamento; os blocos marcados como 'Não sei' recebem Sugestão + Alternativa + A Confirmar. Nenhum bloco é ignorado. Próximo passo ao final.",
+      "files": [],
+      "expectations": [
+        "Skill preenche TODOS os 9 blocos — incluindo os marcados como 'Não sei' (Canais, Fontes de Receita, Estrutura de Custos)",
+        "Blocos já preenchidos (Proposta de Valor, Segmentos, Relacionamento, Recursos, Atividades, Parcerias) recebem Sugestão que expande ou refina o conteúdo fornecido — não apenas repete",
+        "Blocos 'Não sei' recebem Sugestão específica ao setor de frete/transportadores + Alternativa + linha A Confirmar",
+        "Cada bloco tem 💡 Sugestão e 🔄 Alternativa realmente distintas",
+        "Output inclui seção 🗺️ Próximo passo sugerido",
+        "Tom construtivo — sem críticas de viabilidade",
+        "Output NÃO faz perguntas antes de preencher (contexto parcial mas suficiente para sugestões)"
+      ]
+    }
+  ]
+}

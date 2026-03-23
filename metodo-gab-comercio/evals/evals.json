@@ -1,0 +1,55 @@
+{
+  "skill_name": "metodo-gab-comercio",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Preciso que você analise esse canvas de negócio que um colaborador apresentou no treinamento. É uma ideia ainda inicial, ele está na fase de hipótese.\n\nCanvas:\n\n**Oferta de Valor:** Serviço de inspeção veicular digital agendada via app, com laudo técnico em 2 horas e entrega em domicílio do resultado.\n\n**Segmentos de Clientes:** Pessoas físicas que estão comprando carros usados e querem segurança antes de fechar negócio. Também compradores de frotas corporativas.\n\n**Canais:** App mobile, Instagram, parcerias com marketplaces de veículos (OLX, iCarros).\n\n**Relacionamento:** Atendimento via WhatsApp, avaliação pós-serviço.\n\n**Fontes de Receita:** Cobrança por inspeção (R$ 150-250 por laudo). Plano mensal para frotas.\n\n**Recursos-Chave:** Mecânicos habilitados, app, sistema de agendamento, equipe de atendimento.\n\n**Atividades-Chave:** Realizar inspeções, emitir laudos, manter app funcionando, gestão da equipe técnica.\n\n**Parcerias-Chave:** Marketplaces de veículos, oficinas parceiras, seguradoras.\n\n**Estrutura de Custos:** Salários mecânicos, manutenção do app, marketing digital, combustível/logística.\n\nPor favor analise essa proposta.",
+      "expected_output": "Análise estruturada em 5 seções (Diagnóstico Rápido, Pontos Fortes, Críticas e Lacunas, Contexto de Mercado, Próximos Passos) com semáforo de coerência, tom adequado para hipótese inicial, sem linguagem de coach, com diferenciação entre fato e inferência no contexto de mercado, e cada ponto com label em negrito.",
+      "files": [],
+      "expectations": [
+        "Output contém as 5 seções obrigatórias: Diagnóstico Rápido, Pontos Fortes, Críticas e Lacunas, Contexto de Mercado, Próximos Passos",
+        "Output inclui semáforo de coerência (🟢, 🟡 ou 🔴) com justificativa",
+        "Tom adequado para hipótese inicial: foco em lacunas a explorar, não punitivo",
+        "Output não contém linguagem de coach (sem 'que ideia incrível', 'você tem potencial', exclamações entusiasmadas)",
+        "Próximos Passos contém 3 ações com prazo explícito ≤ 90 dias + hipótese prioritária de validação",
+        "Contexto de Mercado menciona elementos relevantes do setor automotivo BR com marcação (fato) ou (inferência)",
+        "Output NÃO contém seções extras além das 5 obrigatórias (sem 'Síntese', 'Conclusão', 'Resumo', etc.)",
+        "Output NÃO usa sub-headers (###) dentro das seções — usa numeração simples com labels em negrito"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Tenho um canvas de uma ideia que um colaborador da área de peças e acessórios desenvolveu ao longo de 3 sessões de treinamento. Já passou por refinamento, então está numa fase mais avançada. Analise com mais rigor.\n\nCanvas:\n\n**Oferta de Valor:** Programa de fidelidade para oficinas independentes que compram peças no Grupo Aguia Branca. A oficina acumula pontos por volume de compra e troca por descontos, treinamento técnico gratuito e acesso prioritário a peças de alta demanda com estoque reservado.\n\n**Segmentos de Clientes:** Oficinas independentes de médio porte (5-15 funcionários) nas cidades onde o grupo tem operação. Foco em oficinas que já têm relacionamento esporádico com o grupo mas não têm exclusividade.\n\n**Canais:** Representante comercial presencial (principal), WhatsApp Business, portal do cliente.\n\n**Relacionamento:** Gerente de conta dedicado para oficinas acima de R$5k/mês em compras. Para menores, atendimento padrão via WhatsApp.\n\n**Fontes de Receita:** Venda de peças (margem atual mantida). O programa de fidelidade é um custo, não uma receita direta — a lógica é aumentar share of wallet e reduzir churn das oficinas.\n\n**Recursos-Chave:** Sistema de pontuação integrado ao ERP, estoque reservado por segmento, equipe de treinamento técnico.\n\n**Atividades-Chave:** Gestão do programa de pontos, treinamentos mensais, visitas dos representantes, curadoria de estoque estratégico.\n\n**Parcerias-Chave:** Montadoras (para treinamento técnico), fornecedores de peças de reposição.\n\n**Estrutura de Custos:** Subsídio de pontos (custo do desconto), equipe de treinamento, sistema de gestão do programa, estoque reservado (custo de oportunidade).\n\nAnálise com rigor — é um plano em estágio avançado.",
+      "expected_output": "Análise rigorosa em 5 seções, semáforo correto, críticas específicas com substância (não genéricas), viabilidade econômica questionada com lógica, contexto de mercado relevante para setor de peças/oficinas, próximos passos concretos com hipótese prioritária.",
+      "files": [],
+      "expectations": [
+        "Output contém as 5 seções obrigatórias: Diagnóstico Rápido, Pontos Fortes, Críticas e Lacunas, Contexto de Mercado, Próximos Passos",
+        "Output inclui semáforo de coerência (🟢, 🟡 ou 🔴) com justificativa",
+        "Tom rigoroso adequado para plano maduro: críticas com substância, viabilidade questionada com lógica, sem suavizações excessivas",
+        "Críticas incluem questionamento de viabilidade econômica (ROI, custo do programa, margem, modelo de monetização)",
+        "Output não contém linguagem de coach ou bajulação",
+        "Próximos Passos contém hipótese prioritária de validação específica e testável para este canvas",
+        "Contexto de Mercado é relevante para setor de peças automotivas e oficinas independentes BR",
+        "Output NÃO contém seções extras além das 5 obrigatórias",
+        "Output NÃO usa sub-headers (###) dentro das seções"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Analisa esse canvas pra mim. É uma ideia de um colaborador da área comercial de veículos novos, ainda bem no começo.\n\nOferta de valor: vender veículos pelo WhatsApp com atendimento 24h e entrega em casa\nClientes: jovens de 18-35 anos que não querem ir à concessionária\nCanais: WhatsApp, Instagram, TikTok\nRelacionamento: chatbot + humano quando necessário\nReceita: venda de veículos + financiamento\nRecursos: equipe de vendas treinada, catálogo digital, sistema de CRM\nAtividades: atendimento digital, gestão de leads, test drive agendado a domicílio\nParcerias: montadoras, financeiras\nCustos: equipe de vendas, marketing digital, logística de test drive\n\nO que você acha?",
+      "expected_output": "Análise em 5 seções, tom não punitivo para hipótese inicial, semáforo de coerência, identificação de lacunas do canvas esparso, pelo menos uma crítica com regulação/compliance (DETRAN, LGPD), próximos passos concretos com hipótese prioritária.",
+      "files": [],
+      "expectations": [
+        "Output contém as 5 seções obrigatórias: Diagnóstico Rápido, Pontos Fortes, Críticas e Lacunas, Contexto de Mercado, Próximos Passos",
+        "Output inclui semáforo de coerência (🟢, 🟡 ou 🔴) com justificativa",
+        "Tom não punitivo para hipótese inicial — foca em lacunas a explorar, não em falhas de execução",
+        "Output reconhece explicitamente lacunas do canvas (blocos vagos ou ausentes)",
+        "Pelo menos uma crítica ou risco menciona regulação, compliance ou barreira estrutural (DETRAN, LGPD, montadoras, financiamento)",
+        "Output não contém linguagem de coach ou entusiasmo artificial",
+        "Próximos Passos são concretos, com prazo, e não genéricos",
+        "Output NÃO contém seções extras além das 5 obrigatórias",
+        "Output NÃO usa sub-headers (###) dentro das seções"
+      ]
+    }
+  ]
+}
