@@ -1,4 +1,4 @@
-# claude-skills
+# gab-claude-skills
 
 Skills do Grupo Aguia Branca para uso com Claude (Cowork, Claude Code ou API).
 Desenvolvidas para apoiar treinamentos de inovação e estratégia comercial no setor automotivo.
